@@ -1,0 +1,9 @@
+.listStyle {
+  height: 28px; 
+  cursor: pointer;
+  padding: 0 16px;
+}
+
+.listStyle:hover {
+  background: #23242D;
+}

@@ -1,0 +1,143 @@
+.modal{
+    width: 434px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 36px 148px 36px;
+    color: #4A4A68;
+    font-size: 12px;
+    background:url('/images/bg_top.png') left top no-repeat,
+    url('/images/bg.png') right bottom no-repeat;
+    background-size:40% auto;
+}
+
+.title{
+    font-size: 18px;
+    color: #151531;
+    line-height: 18px;
+    margin-top: 55px;
+    margin-bottom: 31px;
+}
+
+.itemlabel{
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
+}
+.inputAffixWrapper{
+    position: relative;
+    width: 100%;
+    min-width: 0;
+    padding: 11px 13px;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    display: inline-flex;
+}
+.inputAffixWrapper:before {
+    width: 0;
+    visibility: hidden;
+    content: "\a0";
+}
+
+.inputPrefix, .inputsuffix{
+    display: flex;
+    flex: none;
+    align-items: center;
+}
+.inputPrefix{
+    margin-right: 8px;
+}
+
+.coin{
+    box-sizing: border-box;
+    margin: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px;
+    line-height: 1.5715;
+}
+.coin:focus{
+    outline: none;
+}
+.coin:hover{
+    cursor: pointer;
+}
+.inputAffixWrapper>input.coin {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.networkWrapper{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #D5DAE7;
+    border-radius: 2px;
+    margin: 20px 0;
+    padding-left: 12px;
+}
+
+.networkLeft{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D5DAE7;
+    width: 290px;
+}
+
+.networkRight{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    width: 58px;
+}
+
+.network{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 12px 12px 0;
+}
+.network + .network{
+    border-top: 1px solid #D5DAE7;
+}
+
+.prefix{
+    font-size: 14px;
+    color: #9C9CB2;
+    text-align: center;
+    line-height: 14px;
+}
+
+.item{
+    font-size: 14px;
+    color: #151531;
+    letter-spacing: -0.16px;
+    text-align: center;
+    line-height: 14px;
+}
+.unit{
+    font-size: 14px;
+    color: #9C9CB2;
+}
+
+.allin{
+    color: #347CF3;
+    letter-spacing: -0.14px;
+    text-align: center;
+    line-height: 14px;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
+.allin:hover{
+    cursor: pointer;
+}
+
